@@ -9,4 +9,5 @@ feature 3 commit 1
 hotfix2
 feature 3 commit 2
 hotfix3
+hotfix3b
 feature 4

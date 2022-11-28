@@ -17,5 +17,8 @@ feature 6
 feature 6b
 hotfix3
 hotfix3b
+hotfix4
+hotfix4b
+hotfix4c
 feature 7
 feature 7b

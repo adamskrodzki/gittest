@@ -17,3 +17,4 @@ feature 6
 feature 6b
 hotfix3
 hotfix3b
+feature 7

@@ -1,1 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T07:59:41.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.10" etag="yGMIhMsPC5hA3Op2jXc9" type="github"><diagram name="Strona-1" id="Lb2HZUEffjCKTEpYOJZc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-30T21:22:39.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fMo0gMC-WzSY9lOwcWYb" version="21.1.1" type="github">
+  <diagram name="Strona-1" id="I3twqr6HUAlPQeT1A1_r">
+    <mxGraphModel dx="1434" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lfYyS011A2_INfI6-XkW-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-2" value="fetch eligible&lt;br&gt;opportunities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1050" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lfYyS011A2_INfI6-XkW-1" target="lfYyS011A2_INfI6-XkW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-1030" as="sourcePoint" />
+            <mxPoint x="370" y="-1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-4" value="filter unsupported&lt;br&gt;trigger types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-980" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="-1020" as="sourcePoint" />
+            <mxPoint x="99.5" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-6" value="mark in flight&lt;br&gt;executions&amp;nbsp;&lt;br&gt;HANDLED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="-950" as="sourcePoint" />
+            <mxPoint x="99.5" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-8" value="For all executions in parallel&lt;br&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-760" width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-12" value="Get Position/Protocol&lt;br&gt;Specific data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry x="60" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-13" value="Get Collateral&lt;br&gt;MarketPrice data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lfYyS011A2_INfI6-XkW-8" source="lfYyS011A2_INfI6-XkW-12" target="lfYyS011A2_INfI6-XkW-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="sourcePoint" />
+            <mxPoint x="240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-17" value="Any positions&lt;br&gt;risk liquidation?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry x="65" y="230" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-20" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry x="180" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-22" value="cancel not risky&lt;br&gt;executions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-8">
+          <mxGeometry x="190" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="-800" as="sourcePoint" />
+            <mxPoint x="99.5" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-10" value="create execution&lt;br&gt;for every opportunity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-910" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="-880" as="sourcePoint" />
+            <mxPoint x="99.5" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lfYyS011A2_INfI6-XkW-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-400" as="sourcePoint" />
+            <mxPoint x="260" y="-450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lfYyS011A2_INfI6-XkW-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-360" as="sourcePoint" />
+            <mxPoint x="130" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.4;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lfYyS011A2_INfI6-XkW-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-360" as="sourcePoint" />
+            <mxPoint x="248" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-32" value="For all executions in parallel&lt;br&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-360" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-33" value="Get commandBuilder&lt;br&gt;specific for&amp;nbsp;&lt;br&gt;commandAddress&lt;br&gt;of executed trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-32">
+          <mxGeometry x="60" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-34" value="Compute execution&lt;br&gt;parameters using&amp;nbsp;&lt;br&gt;commandBuilder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-32">
+          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lfYyS011A2_INfI6-XkW-32" source="lfYyS011A2_INfI6-XkW-33" target="lfYyS011A2_INfI6-XkW-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="sourcePoint" />
+            <mxPoint x="240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lfYyS011A2_INfI6-XkW-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lfYyS011A2_INfI6-XkW-40" value="create&amp;nbsp;&lt;br&gt;transaction data&lt;br&gt;callback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lfYyS011A2_INfI6-XkW-32">
+          <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
